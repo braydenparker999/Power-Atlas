@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Power Atlas sample network",
+    "description": "A deliberately small, sourced network for testing the interface. Relationships are not claims of control or conspiracy.",
+    "yearMin": 1870,
+    "yearMax": 1930
+  },
+  "nodes": [
+    {"id":"jp-morgan","name":"J. P. Morgan","type":"person","born":1837,"died":1913,"summary":"American banker and financier."},
+    {"id":"jp-morgan-co","name":"J. P. Morgan & Co.","type":"bank","summary":"Investment and commercial banking house."},
+    {"id":"henry-davison","name":"Henry P. Davison","type":"person","born":1867,"died":1922,"summary":"Banker and senior Morgan partner."},
+    {"id":"paul-warburg","name":"Paul M. Warburg","type":"person","born":1868,"died":1932,"summary":"Banker and central-banking advocate."},
+    {"id":"kuhn-loeb","name":"Kuhn, Loeb & Co.","type":"bank","summary":"New York investment bank."},
+    {"id":"nelson-aldrich","name":"Nelson W. Aldrich","type":"person","born":1841,"died":1915,"summary":"U.S. senator and chairman of the National Monetary Commission."},
+    {"id":"national-monetary-commission","name":"National Monetary Commission","type":"government","summary":"Congressional commission created after the Panic of 1907."},
+    {"id":"jekyll-island","name":"Jekyll Island conference","type":"event","summary":"Private 1910 meeting that developed a monetary-reform proposal."},
+    {"id":"federal-reserve-board","name":"Federal Reserve Board","type":"government","summary":"Federal Reserve governing body established under the 1913 Federal Reserve Act."},
+    {"id":"woodrow-wilson","name":"Woodrow Wilson","type":"person","born":1856,"died":1924,"summary":"President of the United States, 1913–1921."},
+    {"id":"john-rockefeller-jr","name":"John D. Rockefeller Jr.","type":"person","born":1874,"died":1960,"summary":"Philanthropist and son of John D. Rockefeller Sr."},
+    {"id":"abby-aldrich","name":"Abby Aldrich Rockefeller","type":"person","born":1874,"died":1948,"summary":"Daughter of Nelson Aldrich; philanthropist."}
+  ],
+  "edges": [
+    {"id":"e1","source":"henry-davison","target":"jp-morgan-co","type":"employment","label":"partner at","start":1909,"end":1922,"grade":"B","note":"Davison became a senior partner in the Morgan banking house.","sources":[{"title":"Federal Reserve History — Jekyll Island Conference","url":"https://www.federalreservehistory.org/essays/jekyll-island-conference"}]},
+    {"id":"e2","source":"paul-warburg","target":"kuhn-loeb","type":"employment","label":"partner at","start":1902,"end":1914,"grade":"B","note":"Warburg joined Kuhn, Loeb & Co. after moving to the United States.","sources":[{"title":"Federal Reserve History — Paul M. Warburg","url":"https://www.federalreservehistory.org/people/paul-m-warburg"}]},
+    {"id":"e3","source":"nelson-aldrich","target":"national-monetary-commission","type":"leadership","label":"chaired","start":1908,"end":1912,"grade":"A","note":"Aldrich chaired the National Monetary Commission.","sources":[{"title":"U.S. Senate — Nelson W. Aldrich biography","url":"https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Aldrich.htm"}]},
+    {"id":"e4","source":"nelson-aldrich","target":"jekyll-island","type":"participation","label":"attended / led","start":1910,"end":1910,"grade":"B","note":"Aldrich led the small group that met privately at Jekyll Island in November 1910.","sources":[{"title":"Federal Reserve History — Jekyll Island Conference","url":"https://www.federalreservehistory.org/essays/jekyll-island-conference"}]},
+    {"id":"e5","source":"paul-warburg","target":"jekyll-island","type":"participation","label":"attended","start":1910,"end":1910,"grade":"B","note":"Warburg participated in the Jekyll Island monetary-reform meeting.","sources":[{"title":"Federal Reserve History — Jekyll Island Conference","url":"https://www.federalreservehistory.org/essays/jekyll-island-conference"}]},
+    {"id":"e6","source":"henry-davison","target":"jekyll-island","type":"participation","label":"attended","start":1910,"end":1910,"grade":"B","note":"Davison participated in the Jekyll Island monetary-reform meeting.","sources":[{"title":"Federal Reserve History — Jekyll Island Conference","url":"https://www.federalreservehistory.org/essays/jekyll-island-conference"}]},
+    {"id":"e7","source":"woodrow-wilson","target":"paul-warburg","type":"appointment","label":"appointed to Federal Reserve Board","start":1914,"end":1914,"grade":"A","note":"President Wilson nominated Warburg to the first Federal Reserve Board.","sources":[{"title":"Federal Reserve History — Paul M. Warburg","url":"https://www.federalreservehistory.org/people/paul-m-warburg"}]},
+    {"id":"e8","source":"paul-warburg","target":"federal-reserve-board","type":"office","label":"member / vice governor","start":1914,"end":1918,"grade":"A","note":"Warburg served on the Federal Reserve Board and later as vice governor.","sources":[{"title":"Federal Reserve History — Paul M. Warburg","url":"https://www.federalreservehistory.org/people/paul-m-warburg"}]},
+    {"id":"e9","source":"john-rockefeller-jr","target":"abby-aldrich","type":"family","label":"married","start":1901,"end":1948,"grade":"A","note":"John D. Rockefeller Jr. married Abby Greene Aldrich in 1901.","sources":[{"title":"Rockefeller Archive Center — John D. Rockefeller Jr.","url":"https://rockarch.org/resources/about-the-rockefellers/john-d-rockefeller-jr/"}]},
+    {"id":"e10","source":"abby-aldrich","target":"nelson-aldrich","type":"family","label":"daughter of","start":1874,"end":1915,"grade":"A","note":"Abby Greene Aldrich was the daughter of Senator Nelson W. Aldrich.","sources":[{"title":"Rockefeller Archive Center — John D. Rockefeller Jr.","url":"https://rockarch.org/resources/about-the-rockefellers/john-d-rockefeller-jr/"}]},
+    {"id":"e11","source":"jp-morgan","target":"jp-morgan-co","type":"leadership","label":"headed","start":1895,"end":1913,"grade":"B","note":"Morgan headed the banking house that carried his name.","sources":[{"title":"Library of Congress — J. P. Morgan","url":"https://guides.loc.gov/this-month-in-business-history/april/jp-morgan-born"}]}
+  ]
+}
