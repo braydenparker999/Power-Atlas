@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "title": "Power Atlas — Finance, government and family networks, 1870–1935",
+    "description": "A compact first module built from inspectable sources. Relationships are not claims of conspiracy, control, wrongdoing or shared ideology.",
+    "yearMin": 1870,
+    "yearMax": 1935
+  },
+  "sources": {
+    "loc-morgan": {
+      "title": "Banker J. P. Morgan Born",
+      "publisher": "Library of Congress",
+      "kind": "institutional biography",
+      "url": "https://guides.loc.gov/this-month-in-business-history/april/jp-morgan-born"
+    },
+    "fed-panic": {
+      "title": "The Panic of 1907",
+      "publisher": "Federal Reserve History",
+      "kind": "historical essay",
+      "url": "https://www.federalreservehistory.org/essays/panic-of-1907"
+    },
+    "fed-jekyll": {
+      "title": "The Meeting at Jekyll Island",
+      "publisher": "Federal Reserve History",
+      "kind": "historical essay",
+      "url": "https://www.federalreservehistory.org/essays/jekyll-island-conference"
+    },
+    "fed-warburg": {
+      "title": "Paul M. Warburg",
+      "publisher": "Federal Reserve History",
+      "kind": "institutional biography",
+      "url": "https://www.federalreservehistory.org/people/paul-m-warburg"
+    },
+    "fed-strong": {
+      "title": "Benjamin Strong Jr.",
+      "publisher": "Federal Reserve History",
+      "kind": "institutional biography",
+      "url": "https://www.federalreservehistory.org/people/benjamin-strong-jr"
+    },
+    "fed-nyfed": {
+      "title": "Federal Reserve Bank of New York",
+      "publisher": "Federal Reserve History",
+      "kind": "institutional history",
+      "url": "https://www.federalreservehistory.org/essays/new-york-fed"
+    },
+    "senate-aldrich": {
+      "title": "Nelson Aldrich: A Featured Biography",
+      "publisher": "U.S. Senate",
+      "kind": "official biography",
+      "url": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Aldrich.htm"
+    },
+    "rac-jdrsr": {
+      "title": "John D. Rockefeller, 1839–1937",
+      "publisher": "Rockefeller Archive Center",
+      "kind": "archive biography",
+      "url": "https://rockarch.org/resources/about-the-rockefellers/john-d-rockefeller-sr/"
+    },
+    "rac-jdrjr": {
+      "title": "John D. Rockefeller, Jr., 1874–1960",
+      "publisher": "Rockefeller Archive Center",
+      "kind": "archive biography",
+      "url": "https://rockarch.org/resources/about-the-rockefellers/john-d-rockefeller-jr/"
+    },
+    "rac-abby": {
+      "title": "Abby Aldrich Rockefeller, 1874–1948",
+      "publisher": "Rockefeller Archive Center",
+      "kind": "archive biography",
+      "url": "https://rockarch.org/resources/about-the-rockefellers/abby-aldrich-rockefeller/"
+    },
+    "rf-history": {
+      "title": "Our Mission and Vision",
+      "publisher": "The Rockefeller Foundation",
+      "kind": "institutional history",
+      "url": "https://www.rockefellerfoundation.org/about-us/mission-and-vision/"
+    },
+    "rf-annual-1913": {
+      "title": "Rockefeller Foundation Annual Report, 1913–1914",
+      "publisher": "The Rockefeller Foundation",
+      "kind": "primary institutional report",
+      "url": "https://www.rockefellerfoundation.org/wp-content/uploads/Annual-Report-1913-1914-1.pdf"
+    },
+    "fraser-pujo": {
+      "title": "Money Trust Investigation / Pujo Committee records",
+      "publisher": "FRASER, Federal Reserve Bank of St. Louis",
+      "kind": "primary congressional record",
+      "url": "https://fraser.stlouisfed.org/title/money-trust-investigation-80/part-26-23675/fulltext"
+    }
+  },
+  "nodes": [
+    {
+      "id": "jp-morgan",
+      "name": "J. P. Morgan",
+      "type": "person",
+      "born": 1837,
+      "died": 1913,
+      "subtitle": "Banker and financier",
+      "summary": "John Pierpont Morgan became one of the central figures in late-19th- and early-20th-century American finance and industrial consolidation.",
+      "facts": [
+        {"label":"Family background","value":"Son of banker Junius Spencer Morgan.","grade":"B","sources":["loc-morgan"]},
+        {"label":"Career path","value":"Worked through his father's Peabody, Morgan & Co. network before helping form Drexel, Morgan & Co., later J. P. Morgan & Co.","grade":"B","sources":["loc-morgan"]}
+      ]
+    },
+    {
+      "id": "jp-morgan-co",
+      "name": "J. P. Morgan & Co.",
+      "type": "bank",
+      "activeStart": 1895,
+      "subtitle": "New York banking house",
+      "summary": "The banking house led by J. P. Morgan and his partners."
+    },
+    {
+      "id": "junius-morgan",
+      "name": "Junius Spencer Morgan",
+      "type": "person",
+      "born": 1813,
+      "died": 1890,
+      "subtitle": "International banker",
+      "summary": "J. P. Morgan's father and a major transatlantic banking figure associated with George Peabody's London banking house."
+    },
+    {
+      "id": "henry-davison",
+      "name": "Henry P. Davison",
+      "type": "person",
+      "born": 1867,
+      "died": 1922,
+      "subtitle": "Morgan partner",
+      "summary": "Senior Morgan partner and one of the six participants in the 1910 Jekyll Island monetary-reform meeting."
+    },
+    {
+      "id": "paul-warburg",
+      "name": "Paul M. Warburg",
+      "type": "person",
+      "born": 1868,
+      "died": 1932,
+      "subtitle": "Banker and central-banking advocate",
+      "summary": "German-born banker who advocated U.S. central-banking reform, attended the Jekyll Island meeting and later served on the first Federal Reserve Board.",
+      "facts": [
+        {"label":"Birthplace","value":"Hamburg, Germany.","grade":"B","sources":["fed-warburg"]},
+        {"label":"Federal Reserve Board","value":"Member 1914–1916; vice governor 1916–1918.","grade":"B","sources":["fed-warburg"]}
+      ]
+    },
+    {
+      "id": "kuhn-loeb",
+      "name": "Kuhn, Loeb & Co.",
+      "type": "bank",
+      "activeStart": 1867,
+      "subtitle": "New York investment bank",
+      "summary": "Investment banking house where Paul Warburg became a partner after moving to New York."
+    },
+    {
+      "id": "jacob-schiff",
+      "name": "Jacob H. Schiff",
+      "type": "person",
+      "born": 1847,
+      "died": 1920,
+      "subtitle": "Kuhn, Loeb banker",
+      "summary": "Prominent banker associated with Kuhn, Loeb & Co.; Pujo records also list him among National City Bank shareholders in 1912."
+    },
+    {
+      "id": "nelson-aldrich",
+      "name": "Nelson W. Aldrich",
+      "type": "person",
+      "born": 1841,
+      "died": 1915,
+      "subtitle": "U.S. senator",
+      "summary": "Republican senator from Rhode Island, chairman of the Senate Finance Committee and leading figure in pre-Federal Reserve monetary reform.",
+      "facts": [
+        {"label":"Party and power","value":"Leading Republican senator; chaired the Senate Finance Committee from 1898 to 1911.","grade":"B","sources":["senate-aldrich"]},
+        {"label":"Monetary reform","value":"Sponsored the Aldrich-Vreeland Act, which established the National Monetary Commission.","grade":"B","sources":["senate-aldrich"]}
+      ]
+    },
+    {
+      "id": "national-monetary-commission",
+      "name": "National Monetary Commission",
+      "type": "government",
+      "activeStart": 1908,
+      "activeEnd": 1912,
+      "subtitle": "Congressional commission",
+      "summary": "Commission created after the Panic of 1907 to study banking and monetary reform."
+    },
+    {
+      "id": "jekyll-island",
+      "name": "Jekyll Island Conference",
+      "type": "event",
+      "activeStart": 1910,
+      "activeEnd": 1910,
+      "subtitle": "Secret monetary-reform meeting",
+      "summary": "Six men met privately in November 1910 to draft a plan for banking-system reform that later influenced the Federal Reserve framework."
+    },
+    {
+      "id": "federal-reserve-system",
+      "name": "Federal Reserve System",
+      "type": "government",
+      "activeStart": 1913,
+      "subtitle": "U.S. central-banking system",
+      "summary": "Created by the Federal Reserve Act of 1913."
+    },
+    {
+      "id": "federal-reserve-board",
+      "name": "Federal Reserve Board",
+      "type": "government",
+      "activeStart": 1914,
+      "subtitle": "Federal Reserve governing body",
+      "summary": "Original central governing board of the Federal Reserve System."
+    },
+    {
+      "id": "woodrow-wilson",
+      "name": "Woodrow Wilson",
+      "type": "person",
+      "born": 1856,
+      "died": 1924,
+      "subtitle": "U.S. president",
+      "summary": "President of the United States from 1913 to 1921."
+    },
+    {
+      "id": "benjamin-strong",
+      "name": "Benjamin Strong Jr.",
+      "type": "person",
+      "born": 1872,
+      "died": 1928,
+      "subtitle": "First governor of the New York Fed",
+      "summary": "Banker who worked closely with Morgan during the Panic of 1907 and led the Federal Reserve Bank of New York from 1914 to 1928.",
+      "facts": [
+        {"label":"New York Fed","value":"Governor, 1914–1928.","grade":"B","sources":["fed-strong","fed-nyfed"]}
+      ]
+    },
+    {
+      "id": "bankers-trust",
+      "name": "Bankers Trust Company",
+      "type": "bank",
+      "activeStart": 1903,
+      "subtitle": "New York trust company",
+      "summary": "Banking institution where Benjamin Strong served as vice president and later president."
+    },
+    {
+      "id": "new-york-fed",
+      "name": "Federal Reserve Bank of New York",
+      "type": "bank",
+      "activeStart": 1914,
+      "subtitle": "Federal Reserve Bank",
+      "summary": "Opened for business in November 1914 under Benjamin Strong's leadership."
+    },
+    {
+      "id": "panic-1907",
+      "name": "Panic of 1907",
+      "type": "event",
+      "activeStart": 1907,
+      "activeEnd": 1907,
+      "subtitle": "Banking and financial crisis",
+      "summary": "A major financial panic that exposed weaknesses in the U.S. banking system and helped drive monetary-reform efforts."
+    },
+    {
+      "id": "john-rockefeller-sr",
+      "name": "John D. Rockefeller Sr.",
+      "type": "person",
+      "born": 1839,
+      "died": 1937,
+      "subtitle": "Standard Oil founder",
+      "summary": "Industrialist who built Standard Oil and later devoted substantial wealth to philanthropy.",
+      "facts": [
+        {"label":"Origins","value":"Born in Richford, New York; family lived in modest circumstances.","grade":"B","sources":["rac-jdrsr"]},
+        {"label":"Religion","value":"Active Baptist; became a church trustee at age 21.","grade":"B","sources":["rac-jdrsr"]},
+        {"label":"Standard Oil","value":"Organized Standard Oil in 1870 with William Rockefeller, Samuel Andrews, Henry Flagler, Stephen Harkness and others.","grade":"B","sources":["rac-jdrsr"]}
+      ]
+    },
+    {
+      "id": "john-rockefeller-jr",
+      "name": "John D. Rockefeller Jr.",
+      "type": "person",
+      "born": 1874,
+      "died": 1960,
+      "subtitle": "Philanthropist",
+      "summary": "Son of John D. Rockefeller Sr.; major philanthropist and first president of the Rockefeller Foundation."
+    },
+    {
+      "id": "abby-aldrich",
+      "name": "Abby Aldrich Rockefeller",
+      "type": "person",
+      "born": 1874,
+      "died": 1948,
+      "subtitle": "Philanthropist",
+      "summary": "Daughter of Senator Nelson Aldrich and wife of John D. Rockefeller Jr.; later a major patron of modern art."
+    },
+    {
+      "id": "standard-oil",
+      "name": "Standard Oil Company",
+      "type": "company",
+      "activeStart": 1870,
+      "activeEnd": 1911,
+      "subtitle": "Oil company and trust",
+      "summary": "Oil enterprise organized in 1870 that grew into a dominant U.S. refining and petroleum business before its court-ordered breakup."
+    },
+    {
+      "id": "william-rockefeller",
+      "name": "William Rockefeller Jr.",
+      "type": "person",
+      "born": 1841,
+      "died": 1922,
+      "subtitle": "Industrialist and financier",
+      "summary": "Brother and business associate of John D. Rockefeller Sr.; Pujo records list him as a substantial National City Bank shareholder."
+    },
+    {
+      "id": "james-stillman",
+      "name": "James Stillman",
+      "type": "person",
+      "born": 1850,
+      "died": 1918,
+      "subtitle": "National City Bank chairman",
+      "summary": "Banker and major shareholder who chaired National City Bank."
+    },
+    {
+      "id": "frank-vanderlip",
+      "name": "Frank A. Vanderlip",
+      "type": "person",
+      "born": 1864,
+      "died": 1937,
+      "subtitle": "National City Bank president",
+      "summary": "Banker who served as president of National City Bank and attended the Jekyll Island meeting."
+    },
+    {
+      "id": "national-city-bank",
+      "name": "National City Bank of New York",
+      "type": "bank",
+      "activeStart": 1812,
+      "subtitle": "Major New York bank",
+      "summary": "Predecessor of today's Citibank; a major New York institution scrutinized in the Pujo Committee's investigation of concentrated financial power."
+    },
+    {
+      "id": "money-trust-investigation",
+      "name": "Money Trust Investigation",
+      "type": "event",
+      "activeStart": 1912,
+      "activeEnd": 1913,
+      "subtitle": "Pujo Committee investigation",
+      "summary": "Congressional investigation into concentration and control of money and credit in the United States."
+    },
+    {
+      "id": "rockefeller-foundation",
+      "name": "The Rockefeller Foundation",
+      "type": "foundation",
+      "activeStart": 1913,
+      "subtitle": "Philanthropic foundation",
+      "summary": "Foundation established in 1913 by John D. Rockefeller with the mission of promoting human well-being."
+    }
+  ],
+  "edges": [
+    {"id":"e1","source":"jp-morgan","target":"jp-morgan-co","type":"leadership","label":"headed","start":1895,"end":1913,"grade":"B","note":"Morgan headed the banking house that carried his name.","establishes":"Morgan led J. P. Morgan & Co. during this period.","doesNotEstablish":"This does not imply control of every institution financed or advised by the firm.","sources":["loc-morgan"]},
+    {"id":"e2","source":"junius-morgan","target":"jp-morgan","type":"family","label":"father of","start":1837,"end":1890,"grade":"B","note":"Junius Spencer Morgan was J. P. Morgan's father.","sources":["loc-morgan"]},
+    {"id":"e3","source":"henry-davison","target":"jp-morgan-co","type":"employment","label":"senior partner at","start":1909,"end":1922,"grade":"B","note":"Davison was a senior Morgan partner.","sources":["fed-jekyll"]},
+    {"id":"e4","source":"henry-davison","target":"jekyll-island","type":"participation","label":"attended","start":1910,"end":1910,"grade":"B","note":"Davison was one of the six Jekyll Island participants.","sources":["fed-jekyll"]},
+    {"id":"e5","source":"paul-warburg","target":"kuhn-loeb","type":"employment","label":"partner at","start":1902,"end":1914,"grade":"B","note":"Warburg joined his father-in-law's New York banking company as a partner after moving to New York.","sources":["fed-warburg"]},
+    {"id":"e6","source":"paul-warburg","target":"jekyll-island","type":"participation","label":"attended","start":1910,"end":1910,"grade":"B","note":"Warburg was one of the six participants in the 1910 Jekyll Island meeting.","sources":["fed-jekyll","fed-warburg"]},
+    {"id":"e7","source":"nelson-aldrich","target":"national-monetary-commission","type":"leadership","label":"chaired","start":1908,"end":1912,"grade":"B","note":"Aldrich led the National Monetary Commission.","sources":["senate-aldrich"]},
+    {"id":"e8","source":"nelson-aldrich","target":"jekyll-island","type":"participation","label":"led and attended","start":1910,"end":1910,"grade":"B","note":"Aldrich led the small group that met privately at Jekyll Island.","sources":["fed-jekyll"]},
+    {"id":"e9","source":"frank-vanderlip","target":"jekyll-island","type":"participation","label":"attended","start":1910,"end":1910,"grade":"B","note":"Vanderlip attended the Jekyll Island meeting.","sources":["fed-jekyll"]},
+    {"id":"e10","source":"jekyll-island","target":"federal-reserve-system","type":"causal_context","label":"plan helped lay foundation for","start":1910,"end":1913,"grade":"B","note":"Federal Reserve History describes the Jekyll Island plan as laying a foundation for the later Federal Reserve framework.","establishes":"There was an institutional and intellectual lineage from the Jekyll plan to later Federal Reserve legislation.","doesNotEstablish":"The Federal Reserve Act was not identical to the Jekyll Island plan, and Congress enacted a different final structure.","sources":["fed-jekyll","fed-warburg"]},
+    {"id":"e11","source":"woodrow-wilson","target":"paul-warburg","type":"appointment","label":"appointed to Federal Reserve Board","start":1914,"end":1914,"grade":"B","note":"President Wilson appointed Warburg to the first Federal Reserve Board.","sources":["fed-warburg"]},
+    {"id":"e12","source":"paul-warburg","target":"federal-reserve-board","type":"office","label":"member / vice governor","start":1914,"end":1918,"grade":"B","note":"Warburg served as a Board member and later vice governor.","sources":["fed-warburg"]},
+    {"id":"e13","source":"federal-reserve-board","target":"federal-reserve-system","type":"governance","label":"governing body of","start":1914,"end":1935,"grade":"B","note":"The Board served as the central governing body of the Federal Reserve System.","sources":["fed-warburg"]},
+    {"id":"e14","source":"benjamin-strong","target":"bankers-trust","type":"employment","label":"vice president / president","start":1904,"end":1914,"grade":"B","note":"Strong rose through Bankers Trust and became its president in 1914.","sources":["fed-strong"]},
+    {"id":"e15","source":"benjamin-strong","target":"new-york-fed","type":"leadership","label":"governor","start":1914,"end":1928,"grade":"B","note":"Strong became the first governor of the Federal Reserve Bank of New York.","sources":["fed-strong","fed-nyfed"]},
+    {"id":"e16","source":"new-york-fed","target":"federal-reserve-system","type":"governance","label":"Reserve Bank within","start":1914,"grade":"B","note":"The New York Fed is one of the Federal Reserve Banks in the Federal Reserve System.","sources":["fed-nyfed"]},
+    {"id":"e17","source":"jp-morgan","target":"panic-1907","type":"crisis","label":"organized private crisis response","start":1907,"end":1907,"grade":"B","note":"Morgan became a central private coordinator during the Panic of 1907.","sources":["fed-panic"]},
+    {"id":"e18","source":"benjamin-strong","target":"panic-1907","type":"crisis","label":"examined Knickerbocker Trust at Morgan's request","start":1907,"end":1907,"grade":"B","note":"Morgan asked Strong to examine Knickerbocker Trust's books during the crisis.","sources":["fed-panic"]},
+    {"id":"e19","source":"panic-1907","target":"national-monetary-commission","type":"causal_context","label":"helped prompt monetary-reform response","start":1907,"end":1908,"grade":"B","note":"The Panic of 1907 helped drive the reform effort that produced the National Monetary Commission.","sources":["fed-warburg","senate-aldrich"]},
+    {"id":"e20","source":"john-rockefeller-sr","target":"standard-oil","type":"founding","label":"organized / led","start":1870,"end":1896,"grade":"B","note":"Rockefeller organized Standard Oil in 1870 and led its development.","sources":["rac-jdrsr"]},
+    {"id":"e21","source":"william-rockefeller","target":"john-rockefeller-sr","type":"family","label":"brother of","start":1841,"end":1922,"grade":"B","note":"William Rockefeller was John D. Rockefeller Sr.'s brother and business associate.","sources":["rac-jdrsr"]},
+    {"id":"e22","source":"william-rockefeller","target":"standard-oil","type":"founding","label":"co-organizer / shareholder","start":1870,"end":1911,"grade":"B","note":"Rockefeller Archive Center identifies William Rockefeller among the founders of Standard Oil.","sources":["rac-jdrsr"]},
+    {"id":"e23","source":"john-rockefeller-jr","target":"john-rockefeller-sr","type":"family","label":"son of","start":1874,"end":1935,"grade":"B","note":"John D. Rockefeller Jr. was the son of John D. Rockefeller Sr.","sources":["rac-jdrjr"]},
+    {"id":"e24","source":"abby-aldrich","target":"nelson-aldrich","type":"family","label":"daughter of","start":1874,"end":1915,"grade":"B","note":"Abby Greene Aldrich was Senator Nelson Aldrich's daughter.","sources":["rac-jdrjr","rac-abby"]},
+    {"id":"e25","source":"john-rockefeller-jr","target":"abby-aldrich","type":"family","label":"married","start":1901,"end":1935,"grade":"B","note":"John D. Rockefeller Jr. and Abby Greene Aldrich married in 1901.","sources":["rac-jdrjr","rac-abby"]},
+    {"id":"e26","source":"john-rockefeller-sr","target":"rockefeller-foundation","type":"founding","label":"established and endowed","start":1913,"end":1913,"grade":"A","note":"Rockefeller established the foundation in 1913 and supplied its first major funds.","sources":["rf-history","rf-annual-1913"]},
+    {"id":"e27","source":"john-rockefeller-jr","target":"rockefeller-foundation","type":"leadership","label":"first president","start":1913,"end":1917,"grade":"B","note":"Rockefeller Foundation records identify John D. Rockefeller Jr. as its first president.","sources":["rf-annual-1913"]},
+    {"id":"e28","source":"james-stillman","target":"national-city-bank","type":"leadership","label":"chairman / major shareholder","start":1909,"end":1918,"grade":"A","note":"Pujo records identify Stillman as board chairman and the largest listed shareholder, with 47,498 shares in the 1912 schedule.","establishes":"Stillman held a major ownership and leadership position at National City Bank.","doesNotEstablish":"Share ownership alone does not establish that every bank action reflected Stillman's personal direction.","sources":["fraser-pujo"]},
+    {"id":"e29","source":"frank-vanderlip","target":"national-city-bank","type":"leadership","label":"president","start":1909,"end":1919,"grade":"A","note":"Pujo records identify Vanderlip as president of National City Bank.","sources":["fraser-pujo"]},
+    {"id":"e30","source":"william-rockefeller","target":"national-city-bank","type":"business","label":"10,000 shares listed in 1912","start":1912,"end":1912,"grade":"A","note":"The Pujo investigation's shareholder schedule lists William Rockefeller with 10,000 National City Bank shares.","sources":["fraser-pujo"]},
+    {"id":"e31","source":"john-rockefeller-sr","target":"national-city-bank","type":"business","label":"1,750 shares listed in 1912","start":1912,"end":1912,"grade":"A","note":"The Pujo investigation's shareholder schedule lists John D. Rockefeller with 1,750 National City Bank shares.","sources":["fraser-pujo"]},
+    {"id":"e32","source":"jp-morgan-co","target":"national-city-bank","type":"business","label":"15,000 shares listed in 1912","start":1912,"end":1912,"grade":"A","note":"The Pujo investigation's shareholder schedule lists J. P. Morgan & Co. with 15,000 National City Bank shares.","sources":["fraser-pujo"]},
+    {"id":"e33","source":"jacob-schiff","target":"national-city-bank","type":"business","label":"500 shares listed in 1912","start":1912,"end":1912,"grade":"A","note":"The Pujo investigation's shareholder schedule lists Jacob H. Schiff with 500 National City Bank shares.","sources":["fraser-pujo"]},
+    {"id":"e34","source":"money-trust-investigation","target":"national-city-bank","type":"network","label":"documented ownership and governance","start":1912,"end":1913,"grade":"A","note":"The Pujo investigation documented National City Bank's leadership and significant shareholders.","sources":["fraser-pujo"]}
+  ],
+  "featured": [
+    {
+      "id":"wall-street-to-fed",
+      "title":"Wall Street to the Federal Reserve",
+      "description":"Trace a documented route from J. P. Morgan & Co. through Henry Davison and the Jekyll Island meeting into the Federal Reserve framework.",
+      "from":"jp-morgan-co",
+      "to":"federal-reserve-system",
+      "year":1913
+    },
+    {
+      "id":"rockefeller-aldrich",
+      "title":"The Rockefeller–Aldrich family bridge",
+      "description":"Follow the family path connecting John D. Rockefeller Sr. to Senator Nelson Aldrich through John Jr. and Abby Aldrich Rockefeller.",
+      "from":"john-rockefeller-sr",
+      "to":"nelson-aldrich",
+      "year":1910
+    },
+    {
+      "id":"national-city-1912",
+      "title":"National City Bank ownership, 1912",
+      "description":"Explore the Pujo Committee's documented shareholder network around National City Bank.",
+      "from":"william-rockefeller",
+      "to":"jacob-schiff",
+      "year":1912
+    },
+    {
+      "id":"panic-to-fed",
+      "title":"From the Panic of 1907 to the New York Fed",
+      "description":"Follow the crisis-response and reform path from J. P. Morgan and Benjamin Strong toward the Federal Reserve Bank of New York.",
+      "from":"jp-morgan",
+      "to":"new-york-fed",
+      "year":1914
+    }
+  ]
+}
